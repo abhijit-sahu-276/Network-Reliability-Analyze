@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Network Reliability Analyzer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+      .glass {
+        backdrop-filter: blur(8px);
+        background: rgba(255, 255, 255, 0.72);
+      }
+      .dark .glass {
+        background: rgba(17, 24, 39, 0.72);
+      }
+    </style>
+  </head>
+  <body class="min-h-screen bg-gradient-to-br from-amber-50 via-emerald-50 to-sky-100 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950">
+    <div id="root"></div>
+    <script type="text/babel" src="./src/App.js"></script>
+  </body>
+  </html>

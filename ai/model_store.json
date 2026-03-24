@@ -1,0 +1,22 @@
+{
+  "weights": [
+    -0.3747144102680876,
+    1.3069987018361695,
+    0.8186052023221343,
+    1.8394928937979123,
+    1.2432445804885282,
+    1.4699472872905508,
+    0.6580439037626679
+  ],
+  "bias": -1.6798489572380493,
+  "feature_names": [
+    "time_since_last_failure_min",
+    "utilization",
+    "latency_ms",
+    "packet_loss",
+    "historical_fail_rate",
+    "edge_probability",
+    "bridge_score"
+  ],
+  "learning_rate": 0.08
+}
