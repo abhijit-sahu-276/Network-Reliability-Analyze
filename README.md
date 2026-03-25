@@ -96,12 +96,12 @@ python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
 ## 4) Run frontend (simple static server)
 
 ```powershell
-python -m http.server 5500 -d frontend
+python -m http.server 5600 -d frontend
 ```
 
 Open:
 
-- Frontend: `http://127.0.0.1:5500`
+- Frontend: `http://127.0.0.1:5600`
 - Backend docs: `http://127.0.0.1:8000/docs`
 
 ## Frontend Features
